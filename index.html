@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/lightbox.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+
+  <body class="d-flex flex-column ">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-2" href="#">SUKET BHOLA</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav pe-2 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link links" href="#intro">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link links" href="#foot">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div id="intro">
+          <div class="row">
+            <div class="col-8 offset-md-1 offset-1">
+              <div class="profileImg inline-block me-3">
+                <img
+                  src="pictures/pic1.jpg"
+                  alt="Profile Image"
+                  id="myImg"
+                  class="img-thumbnail applyShawdow"
+                />
+              </div>
+
+              <div class="inline-block" id="hello">
+                <span class="wave">👋</span>
+                <p class="mb-4 inline-block">Hello, I'm Suket</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8 offset-md-4">
+              <div id="aboutMe">
+                <p>
+                 I am a <strong>Web Developer</strong>  and currently a 2nd year IT student at IIIT Allahabad. I like To explore new things and I believe being different is what we need rather than being better. I'm familiar in working with Node.js, Express and MongoDB, and currently learning React to improve my Front-End skills.
+               </p>
+               <p>
+                  This Portfolio Represents My Achievements, My Projects Which I Have Done Till Far And About Me.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 offset-2 text-center">
+            <h2 class="heads">Projects</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-8 offset-2" id="cards">
+            <div class="card mb-3">
+              <img
+                src="pictures/yelpcamp.jpg"
+                class="card-img-top"
+                alt="..."
+                data-lightbox="yelp"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">YelpCamp</h5>
+                <p class="card-text">
+                  A custom version of YelpCamp, where you can make your own
+                  campgrounds and review others(Node.js, Express, MongoDB,
+                  Bootstrap).
+                </p>
+                <div>
+                  <a target="_blank"
+                    href="https://secure-everglades-95465.herokuapp.com/"
+                    class="btn btn-primary"
+                    >YelpCamp</a
+                  >
+
+                  <a target="_blank"
+                    href="https://github.com/SuketB/YelpCamps"
+                    class="btn btn-primary"
+                    ><i class="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <img
+                src="pictures/coviguard.jpg"
+                class="card-img-top"
+                alt="..."
+                data-lightbox="covid"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">CoviGuard</h5>
+                <p class="card-text">
+                  Covid-19 dashboard to display details regarding number of
+                  cases and vaccination.
+                </p>
+                <div>
+                  <a target="_blank"
+                    href="https://suketb.github.io/WebD-Selection/"
+                    class="btn btn-primary"
+                  >
+                    CoviGuard</a
+                  >
+                  <a href="https://github.com/SuketB/WebD-Selection" class="btn btn-primary" target="_blank"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 offset-2 text-center">
+            <h2 class="heads">Education</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-8 offset-2" id="education">
+            <div class="edu">
+              <h5>Secondary</h5>
+              <p>D.A.V Public School, Ambala Cantt</p>
+              <p>Grade: 79%</p>
+            </div>
+            <div  class="edu">
+              <h5>Senior-Secondary</h5>
+              <p>D.A.V Public School, Ambala Cantt</p>
+              <p>Grade: 96%</p>
+            </div>
+            <div  class="edu">
+              <h5>Higher Education</h5>
+              <p>IIIT Allahabad</p>
+              <p>CGPA: N/A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-8 offset-2 text-center">
+            <h2 class="heads">Gallery</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container gallery">
+        <div class="row mb-3">
+          <div id="imagesContainer">
+            <div class="image">
+              <a href="pictures/1 (1).jpg" data-lightbox="gal">
+                <img
+                  src="pictures/1 (1).jpg"
+                  class="img-fluid"
+                  data-lightbox="gal"
+                  alt=""
+              /></a>
+            </div>
+            <div class="image">
+              <a href="pictures/1 (2).jpg" data-lightbox="gal">
+                <img
+                  src="pictures/1 (2).jpg"
+                  class="img-fluid"
+                  data-lightbox="gal"
+                  alt=""
+              /></a>
+            </div>
+            <div class="image">
+              <a href="pictures/1 (3).jpg" data-lightbox="gal">
+                <img
+                  src="pictures/1 (3).jpg"
+                  class="img-fluid"
+                  data-lightbox="gal"
+                  alt=""
+              /></a>
+            </div>
+            <div class="image">
+              <a href="pictures/1 (4).jpg" data-lightbox="gal">
+                <img
+                  src="pictures/1 (4).jpg"
+                  class="img-fluid"
+                  data-lightbox="gal"
+                  alt=""
+              /></a>
+            </div>
+            <div class="image">
+              <a href="pictures/1 (5).jpg" data-lightbox="gal">
+                <img
+                  src="pictures/1 (5).jpg"
+                  class="img-fluid"
+                  data-lightbox="gal"
+                  alt=""
+              /></a>
+            </div>
+            <div class="image">
+              <a href="pictures/1 (6).jpg" data-lightbox="gal">
+                <img
+                  src="pictures/1 (6).jpg"
+                  class="img-fluid"
+                  data-lightbox="gal"
+                  alt=""
+              /></a>
+            </div>
+            <div class="image">
+              <a href="pictures/1 (7).jpg" data-lightbox="gal">
+                <img
+                  src="pictures/1 (7).jpg"
+                  class="img-fluid"
+                  data-lightbox="gal"
+                  alt=""
+              /></a>
+            </div>
+            <div class="image">
+              <a href="pictures/1 (8).jpg" data-lightbox="gal">
+                <img
+                  src="pictures/1 (8).jpg"
+                  class="img-fluid"
+                  data-lightbox="gal"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-4" id="foot">
+      <div class="col-6 offset-3 text-center">
+        <div class="social-links">
+          <a href="https://www.instagram.com/suket_2/" class="mx-3" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://github.com/SuketB" target="_blank" class="mx-3">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <div class="copyright pt-4">
+          &copy; All Rights Reserved By <strong>Suket</strong>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2805371b9a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/lightbox.js"></script>
+  </body>
+</html>
